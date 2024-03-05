@@ -1,4 +1,4 @@
-/shxjx
-node_modules
+shxjx/
+node_modules/
 app/unpackage/
 app/uni_modules/
