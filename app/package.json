@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "uview-ui": "^2.0.36",
+    "xlsx": "^0.18.5"
+  }
+}

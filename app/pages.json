@@ -1,0 +1,61 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "双兴机械加工厂",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/function/quotation/quotation",
+			"style" : 
+			{
+				"navigationBarTitleText" : "报价单",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom",
+				 "navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/function/inventory/inventory",
+			"style" : 
+			{
+				"navigationBarTitleText" : "库存表",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/function/inventory/create_inventory",
+			"style" : 
+			{
+				"navigationBarTitleText" : "新建库存",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/function/quotation/create_quotation",
+			"style" : 
+			{
+				"navigationBarTitleText" : "新建报价",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "双兴机械加工厂",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
